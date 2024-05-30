@@ -8,7 +8,7 @@ import {
   AiOutlineTikTok,
   AiOutlineYoutube
 } from "react-icons/ai";
-  
+import Player from "../components/Player";
   
 function About() {
   return (
@@ -132,6 +132,7 @@ function About() {
             </Col>
           </Row>
         </Container>
+        <Player />
       </Container>
       </section>
     );
