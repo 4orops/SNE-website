@@ -9,6 +9,7 @@ import {
   AiOutlineYoutube
 } from "react-icons/ai";
 import Player from "../components/Player";
+import Hitsong from "../components/Hitsong";
   
 function About() {
   return (
@@ -133,7 +134,9 @@ function About() {
           </Row>
         </Container>
         <Player />
+        <Hitsong />
       </Container>
+      
       </section>
     );
   }

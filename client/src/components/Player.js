@@ -6,7 +6,7 @@ import song1 from "../Assets/song1.mp3"
 
 const Player = () => (
   <AudioPlayer
-    autoPlay
+    autoPlay={false}
     src={song1} 
     onPlay={(e) => console.log("onPlay")} 
   />

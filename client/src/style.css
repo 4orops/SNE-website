@@ -311,7 +311,7 @@ img {
   /* Footer */
   /* --------- */
   .footer {
-    position: fixed;
+    position: relative;
     background-color: rgb(4, 22, 5);
     bottom: 0 !important;
     padding-top: 10px !important;
@@ -396,9 +396,15 @@ img {
   color: #ffffff;
 } */
 
-.display-4 {
-  font-family: 'Syne', sans-serif;
-  font-size: 1rem;
-  line-height: 1em;
-  letter-spacing: inherit;
+
+
+  /* --------- */
+  /* Hitsongs */
+  /* --------- */
+.cid-tB1GEqNZKe {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  overflow: hidden;
+  background-color: rgb(27 20 41);
 }
+
