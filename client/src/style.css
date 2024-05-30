@@ -362,4 +362,43 @@ img {
   /* --------- */
   /* About */
   /* --------- */
+  /* .about-section {
+    position: relative;
+    padding-bottom: 70px !important;
+    padding-top: 70px !important;
+  } */
+
   
+  /* --------- */
+  /* About Button */
+  /* --------- */
+.mbr-section-btn {
+  margin-left: -0.6rem;
+  margin-right: -0.6rem;
+  font-size: 0;
+  box-shadow: none;
+  padding: 21px 40.5px;
+  border-width: 2px;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.btn-success {
+  background-color: #b29fe9 !important;
+  border-color: #b29fe9 !important;
+  color: #ffffff;
+}
+
+/* .btn-primary-outline {
+  background-color: #051ceb;
+  color: #ffffff;
+} */
+
+.display-4 {
+  font-family: 'Syne', sans-serif;
+  font-size: 1rem;
+  line-height: 1em;
+  letter-spacing: inherit;
+}
