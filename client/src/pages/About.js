@@ -10,9 +10,11 @@ import {
 } from "react-icons/ai";
 import Player from "../components/Player";
 import Hitsong from "../components/Hitsong";
+// import Hitsong2 from "../components/Hitsong2";
   
 function About() {
   return (
+    <>
     <section>
       <Container fluid className="home-about-section" id="about">
         <Container>
@@ -134,11 +136,12 @@ function About() {
           </Row>
         </Container>
         <Player />
-        <Hitsong />
+        <Hitsong/>
       </Container>
       
       </section>
+      
+      </>
     );
   }
-
 export default About;

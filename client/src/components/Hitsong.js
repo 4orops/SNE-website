@@ -1,7 +1,6 @@
 import React from "react";
 
 
-
 function Hitsong() {
     return (
         <section className="Feature4vibe5 cid-tB1GEqNZKe" id="feature4-3">
@@ -18,7 +17,7 @@ function Hitsong() {
                         <a href="#">
                             <div className="item-wrapper">
                                 <div className="item-img">
-                                    <img src="../Assets/image1.jpg"/>
+                                    <img src='https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg'/>
                                 </div>
                             </div>
                             <div className="item-content">
@@ -31,7 +30,7 @@ function Hitsong() {
                         <a href="#">
                             <div className="item-wrapper">
                                 <div className="item-img">
-                                    <img src="./Assets/image1.jpg"/>
+                                    <img src='https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg'/>
                                 </div>
                             </div>
                             <div className="item-content">
@@ -45,7 +44,7 @@ function Hitsong() {
                         <a href="#">
                             <div className="item-wrapper">
                                 <div className="item-img">
-                                    <img src="./Assets/image1.jpg"/>
+                                    <img src='https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg'/>
                                 </div>
                             </div>
                             <div className="item-content">
