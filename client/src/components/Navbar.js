@@ -25,6 +25,7 @@ function NavBar() {
   window.addEventListener("scroll", scrollHandler);
 
   return (
+    <header data-bs-theme="dark">
     <Navbar
       expanded={expand}
       fixed="top"
@@ -76,6 +77,7 @@ function NavBar() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </header>
   );
 }
 

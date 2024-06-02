@@ -3,14 +3,14 @@ import React from "react";
 
 function Hitsong() {
     return (  
-        <section className="" id="">
+        <section>
             <div className="container-fluid">
             <div className="col-12">
-                        <div className="title-wrapper">
-                            <h2 className="mbr-section-title mbr-fonts-style display-2">
-                                <strong>Some Popular Hits</strong>
-                            </h2>
-                        </div>
+                    <div className="title-wrapper">
+                        <h2 className="mbr-section-title mbr-fonts-style display-2">
+                            <strong>Some Popular Hits</strong>
+                        </h2>
+                    </div>
                 </div>
                 <div className="row row-cols-1 row-cols-md-3 g-4">
                     <div  className="col">

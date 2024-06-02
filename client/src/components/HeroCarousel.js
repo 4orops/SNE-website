@@ -3,10 +3,6 @@ import image1 from '../Assets/image1.jpg'
 import image2 from '../Assets/image2.jpg'
 import image3 from '../Assets/image3.jpg'
 
-// import hero1 from '../Assets/hero1-img.jpg';
-// import hero2 from '../Assets/hero2-img.jpg';
-// import hero3 from '../Assets/hero3-img.jpg';
-
 function HeroCarousel() {
   return (
     <Carousel data-bs-theme="dark" >
