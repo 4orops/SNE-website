@@ -14,17 +14,18 @@ import Hitsong from "../components/Hitsong";
   
 function About() {
   return (
-    <>
-    <section>
-      <Container fluid className="home-about-section" id="about">
-        <Container>
-          <Row>
-            <Col md={4} className="myAbout"> 
-              <img src={myImage} className="img-fluid" alt="S.N.E"/>
-            </Col>
-            <Col md={8} className="home-about-description">
-              <h1 style={{ fontSize: "2.6em" }}>About Me</h1>
-              <p className="home-about-body">
+    <div className="container">
+      <div className="row" style={{marginTop:'80px'}}>
+      <div className="col-sm-4">
+        <img src={myImage} style={{height:'400px'}} 
+        className="img-fluid rounded" alt="S.N.E"/>
+      </div>
+
+        <div className="col-sm-8">
+          <h2 className="display-2">
+            <strong>My Bio</strong>
+          </h2>
+          <p className="home-about-body">
               <ReadMoreButton
                 initialText="A Musical Journey from Jabulani, Soweto Sixteen years ago, amidst the bustling streets of Jabulani, Soweto, 
                              a young Sinenhlanhla Zethembe Ngobese, known today as S.N.E, embarked on a musical journey that would shape 
@@ -83,13 +84,14 @@ function About() {
                               audiences and fellow artists alike. As he continues on his journey, one thing is certain: the world has only begun to experience 
                               the full extent of S.N.E's artistry and influence. "
               />
-              </p>      
-            <div className="mbr-section-btn">
+              </p>   
+              <div className="mbr-section-btn">
               <a className="btn btn-success display-4" href="#"> Read More </a>
               <a className="btn btn-primary display-4" href="#"> Listen Now </a>
             </div>
-            <Col md={12} className="home-about-social">
-              <ul className="home-about-social-links">
+
+            <div className="col-sm-12">
+            <ul className="home-about-social-links">
                   <li className="social-icons">
                     <a
                       href="https://github.com/soumyajit4419"
@@ -131,17 +133,12 @@ function About() {
                     </a>
                   </li>
               </ul>
-            </Col>
-            </Col>
-          </Row>
-        </Container>
-        <Player />
-        <Hitsong/>
-      </Container>
-      
-      </section>
-      
-      </>
+            </div>
+        </div>
+      </div>
+      <Player />
+      <Hitsong/>
+  </div>
     );
   }
 export default About;

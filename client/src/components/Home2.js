@@ -10,12 +10,11 @@ import {
 function Home2() {
     return (
         <div className="container">
-            <div className="col-12">
-                <div className="title-wrapper">
-                    <h2 className="mbr-section-title mbr-fonts-style display-2">
-                        <strong>About Me</strong>
-                    </h2>
-                </div>
+            <div className="row">
+            <div className="col-12 p-4">
+                <h2 className="display-2">
+                    <strong>About Me</strong>
+                </h2>
             </div>
             <div className="row">
                 <div className="col-sm-8">
@@ -79,6 +78,7 @@ function Home2() {
                     <img src={myImage} style={{height:'400px'}} 
                     className="img-fluid rounded" alt="S.N.E"/>
                 </div>
+            </div>
             </div>
             </div>
     )
