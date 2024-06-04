@@ -16,5 +16,4 @@ function latestRelease() {
         
     )
 }
-
 export default latestRelease;

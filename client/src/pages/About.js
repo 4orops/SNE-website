@@ -1,5 +1,4 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
 import myImage from "../Assets/about.jpg"
 import ReadMoreButton from "../components/ReadMoreButton";
 import {
@@ -9,8 +8,9 @@ import {
   AiOutlineYoutube
 } from "react-icons/ai";
 import Player from "../components/Player";
+import Hitsong2 from "../components/Hitsong2";
 import Hitsong from "../components/Hitsong";
-// import Hitsong2 from "../components/Hitsong2";
+import NewsArticles  from "../components/NewsArticles";
   
 function About() {
   return (
@@ -137,7 +137,9 @@ function About() {
         </div>
       </div>
       <Player />
+      <Hitsong2/>
       <Hitsong/>
+      <NewsArticles />
   </div>
     );
   }
