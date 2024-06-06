@@ -86,7 +86,7 @@ function About() {
               />
               </p>   
               <div className="mbr-section-btn">
-              <a className="btn btn-success display-4" href="#"> Read More </a>
+              <a className="btn btn-success display-4" href="#expandedText"> Read More </a>
               <a className="btn btn-primary display-4" href="#"> Listen Now </a>
             </div>
 
