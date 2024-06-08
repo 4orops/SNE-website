@@ -1,5 +1,5 @@
 import React from "react";
-import myImage from "../Assets/about.jpg"
+import myImage from "../components/Assets/about.jpg"
 import ReadMoreButton from "../components/ReadMoreButton/ReadMoreButton";
 import {
   AiOutlineTwitter,
