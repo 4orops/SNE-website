@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 // import Preloader from "../src/components/Pre";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/NavBar/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 import {
   BrowserRouter as Router,
   Route,
@@ -13,7 +13,7 @@ import {
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 
 function App() {

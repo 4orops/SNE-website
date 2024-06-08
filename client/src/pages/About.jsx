@@ -1,16 +1,16 @@
 import React from "react";
 import myImage from "../Assets/about.jpg"
-import ReadMoreButton from "../components/ReadMoreButton";
+import ReadMoreButton from "../components/ReadMoreButton/ReadMoreButton";
 import {
   AiOutlineTwitter,
   AiFillInstagram,
   AiOutlineTikTok,
   AiOutlineYoutube
 } from "react-icons/ai";
-import Player from "../components/Player";
-import Hitsong2 from "../components/Hitsong2";
-import Hitsong from "../components/Hitsong";
-import NewsArticles  from "../components/NewsArticles";
+import Player from "../components/MediaPlayer/Player";
+import Hitsong2 from "../components/HitSong/Hitsong2";
+import Hitsong from "../components/HitSong/Hitsong";
+import NewsArticles  from "../components/NewsArticle/NewsArticles";
   
 function About() {
   return (
