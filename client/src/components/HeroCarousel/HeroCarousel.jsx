@@ -1,4 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
+import '../HeroCarousel/HeroCarousel.css';
 import image1 from '../Assets/image1.jpg'
 import image2 from '../Assets/image2.jpg'
 import image3 from '../Assets/image3.jpg'

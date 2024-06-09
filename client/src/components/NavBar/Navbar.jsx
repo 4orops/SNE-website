@@ -4,10 +4,12 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
+import '../NavBar/Navbar.css'
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineShoppingCart
 } from "react-icons/ai";
 
 function NavBar() {
@@ -58,6 +60,16 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/about"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineShoppingCart style={{ marginBottom: "2px" }} /> Shop
               </Nav.Link>
             </Nav.Item>
 
