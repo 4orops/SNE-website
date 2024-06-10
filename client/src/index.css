@@ -2,3 +2,7 @@
   margin: 0;
 }
 
+body {
+  background: linear-gradient(360deg, #3b343b 0%, #0051ff22 100%);
+}
+

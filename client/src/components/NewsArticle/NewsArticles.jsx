@@ -3,9 +3,9 @@ import '../NewsArticle/NewsArticles.css'
 
 function Articles() {
     return (
-      <div className="container article">  
+      <div className="container">  
         <div className="col-12">    
-          <h2 className="display-2">
+          <h2 className="display-2 text-center">
              <strong> Latest News </strong>
           </h2>
         </div>

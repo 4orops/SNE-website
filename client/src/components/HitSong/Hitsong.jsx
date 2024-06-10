@@ -5,6 +5,7 @@ import img2 from '../Assets/lastslide2.jpg'
 
 function Hitsong() {
     return (  
+        <div class="album py-5">
         <div className="container">
             <div className="col-12">
                 <h2 className="display-2">
@@ -49,6 +50,7 @@ function Hitsong() {
                      </div>
                  </div>
             </div>
+        </div>
         </div>
     );
 }

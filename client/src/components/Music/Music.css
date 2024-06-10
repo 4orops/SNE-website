@@ -1,0 +1,64 @@
+/* DspsSingles.module.css */
+.containers {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .singlesWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .singleCard {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  
+    &:hover {
+      transform: translateY(-4px);
+    }
+  }
+  
+  .albumArt {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 12px;
+  }
+  
+  .streams {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .link {
+    display: block;
+    margin-top: 12px;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  
+    &:hover {
+      color: #0056b3;
+    }
+  }
+  

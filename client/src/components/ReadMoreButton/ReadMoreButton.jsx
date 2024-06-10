@@ -9,9 +9,9 @@ const ReadMoreButton = ({ initialText, expandedText }) => {
   };
 
   return (
-    <div>
+    <div className='text-center'>
       {showMore ? expandedText : initialText}
-      <Button variant="link" onClick={toggleContent}>
+      <Button  onClick={toggleContent}>
         {showMore ? 'Read less' : 'Read more'}
       </Button>
     </div>
