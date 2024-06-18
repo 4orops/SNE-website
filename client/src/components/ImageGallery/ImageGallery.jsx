@@ -10,7 +10,7 @@ const ImageGallery = ({ images }) => {
           <img
             key={im.id}
             src={im.imageUrl}
-            alt={`Image ${im.id}`}
+            alt={`${im.id}`}
             className="gallery-image"
           />
         ))}
